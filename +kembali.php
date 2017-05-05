@@ -1,5 +1,5 @@
 <?php    
-include "config/koneksi.php";
+include "config/koneksi.php"; //add coment
 include "config/library.php";
 	$id=mysql_real_escape_string($_POST['id_buku']);  
 	$id_anggota=mysql_real_escape_string($_POST['id_anggota']);	
