@@ -78,7 +78,8 @@ include "config/koneksi.php";
     </div>
     <div id="tio"></div>
     </div>
-<?php 
+
+<?php //admin dapat melihat data peminjaman dan pengembalian buku
 	if($_SESSION['level']=="admin"){?>
 		<a href="javascript:peminjaman();" class="btn btn-danger btn-xs"><i class="glyphicon glyphicon-eye-close"></i> Lihat Data Peminjaman </a>
 		<a href="javascript:pengembalian();" class="btn btn-danger btn-xs"><i class="glyphicon glyphicon-eye-close"></i> Lihat Data Pengembalian </a>
