@@ -17,7 +17,7 @@ include "config/koneksi.php";
     <div class="panel-heading">Peminjam-<?php echo $nama ?></div>
     <div class="panel-body">
     <div class="form-group">
-		<img src="assets/pp/<?php echo $foto?>" width="200px">
+		<img src="assets/pp/<?php echo $foto?>" width="200px"> //memasukan asset
     </div>
     <div class="form-group">
 		<label>Nama</label>
